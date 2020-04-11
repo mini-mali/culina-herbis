@@ -1,0 +1,12 @@
+{
+  "short_name": "CH",
+  "name": "Culina Herbis",
+  "icons": [{
+    "src": "/img/brand/favicon--32x32.png",
+    "type": "image/png",
+    "sizes": "32x32"
+  }],
+  "start_url": "/?utm_source=homescreen",
+  "background_color": "#e1f5c4",
+  "theme_color": "#e1f5c4"
+}
