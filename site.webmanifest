@@ -1,12 +1,12 @@
 {
-  "short_name": "CH",
+  "short_name": "Seed Bombers",
   "name": "Culina Herbis",
   "icons": [{
     "src": "/img/brand/favicon--32x32.png",
     "type": "image/png",
     "sizes": "32x32"
   }],
-  "start_url": "/?utm_source=homescreen",
+  "start_url": "https://mini-mali.github.io/culina-herbis?utm_source=site-webmanifest",
   "background_color": "#e1f5c4",
   "theme_color": "#e1f5c4"
 }
