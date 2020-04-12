@@ -85,14 +85,14 @@ Release ℬ.0.0
 > [ UI ] var(--colors)
 
 ⭐  Extra BONUS
-    > Petřžel – names in:
-      > EN
-      > LA
-      > DE
-      > FR
-      > ES
-      > IT
-      > CS
+    ✅ Petřžel – names in:
+      ✅ EN
+      ✅ LA
+      ✅ DE
+      ✅ FR
+      ✅ ES
+      ✅ IT
+      ✅ CS
 ❤️  Nice to have
 
 
