@@ -39,6 +39,7 @@ actions
   📖  study
   🖼  style
   👯  meeting
+  📄  write
   >   todo
   ?   todo OR not todo?
 
