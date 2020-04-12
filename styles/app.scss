@@ -1,3 +1,9 @@
+@import 'variables';
+@import 'utility';
+@import 'mixins';
+
+
+
 //
 //  variables
 //
@@ -30,9 +36,9 @@ main {
 h1 {
   margin: 0 0 1.6rem;
 
-  font-size: 3.2rem;
+  font-size: 2.4rem;
   line-height: 1.4;
-  //color: var(--red);
+  color: var(--red);
 }
 
 hr {
@@ -40,6 +46,33 @@ hr {
 }
 
 
+
+nav {
+  //...
+
+  a {
+    //...
+  }
+
+  //
+  // ◊ ◊ ◊
+  //
+
+  ul {
+    //...
+    @include reset(ul);
+  }
+
+  li {
+    //...
+    //a {…}
+  }
+
+  li li {
+    //...
+    //a {…}
+  }
+}
 
 //=============================================
 //=============================================
@@ -105,3 +138,11 @@ html,body{height:100%}
 body{
   background-color: #e1f5c4;
 }
+
+
+
+
+//
+//  > clean-up if(numberOfLines > 123 )
+//
+@import 'todo';
