@@ -41,6 +41,15 @@ hr {
   //...
 }
 
+a {
+  color: var(--link);
+
+  &:focus,
+  &:hover {
+    color: var(--link-hover);
+  }
+}
+
 
 //=============================================
 //=============================================
@@ -58,7 +67,7 @@ hr {
 
 pre { font-family:monospace, monospace;font-size:1em}
 
-a{background-color:transparent}
+a { background-color:transparent; }
 
 abbr[title]{border-bottom:none;text-decoration:underline;text-decoration:underline dotted}
 
