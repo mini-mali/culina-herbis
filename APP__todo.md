@@ -22,6 +22,7 @@ state / status / flag
   ❌  fail / error
 
   ✅  done / success
+  ℹ️  info
 
   ⚠️  warn
   ☕️  wait / loading / coffee break
@@ -68,5 +69,7 @@ Release 🅰️.0.0
 --------------
 
 ✅ working local dev stack
-> publish your website on the Internet
+>>> publish your website on the Internet
+
+———( ? )———
 ⭐ release 1.0.0 – add Label on GiHub
