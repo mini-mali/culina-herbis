@@ -1,39 +1,3 @@
-••••••••••••••••••••
-
-
-LEGENDA
--------
-
->   todo
-?   todo OR not todo
-
-⭕  onHold
-⏳  wait
-✅  done
-❌  canceled
-
-
-🅰️  priority
-❤️  nice to have
-⭐  Extra Bonus
-
-👯  meeting
-🤙  call
-
-
-
-task types
-----------
-👁️  style
-🧹  clean-up
-
-
-••••••••••••••••••••
-
-
-
-
-
 Saturday    11. 4. 2020
 ========
 
