@@ -5,13 +5,13 @@
 
 
 nav {
-  padding: 2vw;
+  padding: $unit;
   overflow: scroll;
 
 
   li,
   a {
-    padding: 0 1rem;
+    padding: 0 $unit;
   }
 
 
@@ -29,7 +29,7 @@ nav {
 
 
   li {
-    font-size: 3em;
+    font-size: $unit * 2;
     //a {…}
   }
   li li {
