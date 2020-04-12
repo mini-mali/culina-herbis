@@ -1,4 +1,7 @@
 @mixin reset($what) {
+  //
+  //  <ul> – reset default browser styles
+  //
   @if $what == "ul" {
     margin: 0;
     padding: 0;
