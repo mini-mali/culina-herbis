@@ -1,9 +1,10 @@
 console.log('Hallow 🙏 World');
-//console.warning('⚠ warning');
-//console.error('⧱ ERROR');
-//console.info('ℹ info');
-//❤️ console.table(tabularData, properties)
-//⭐ console.time("MyTimer 📖 https://console.spec.whatwg.org/#time ");
+console.warn('Warning ⚠️ ___');
+console.error('ERROR ❌ ___');
+console.info('info ℹ️ ___');
+//❤️ console.table(tabularData, properties) 📖 https://console.spec.whatwg.org/#table
+//console.info('info ℹ️ ⭐ MyTimer');
+//console.time("MyTimer");
 //console.log('World 🙏 Hallow');
 
 
