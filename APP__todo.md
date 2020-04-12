@@ -77,8 +77,11 @@ E X T R A S
 
 Release ℬ.0.0
 --------------
-✅ [ UI ] < nav >
-> [ UI ] < footer >
+✅ [ UI ] < nav >      {{ Release ℬ.0.1 }}
+    ✅ create <nav> HTML structure
+    ✅ style <nav>
+    ✅ enable horizontal scroll on <nav>
+> [ UI ] < footer >    {{ Release ℬ.0.2 }}
 > [ UI ] var(--colors)
 
 ⭐  Extra BONUS
