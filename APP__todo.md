@@ -65,15 +65,12 @@ E X T R A S
 
 
 
-Release 🅰️.0.0
+Release ℬ.0.0
 --------------
+⭐ add label "Release A.0.0" on GitHub
+> ∑ (SHIFT + ALT + S)
+> ∆ (SHIFT + ALT + D)
 
-✅ working local dev stack (HTML, CSS, JS)
-⭐⭐⭐ Live reload:
-       ✅ index.html
-       ✅ app.scss
-       ✅ app.js
->>> publish your website on the Internet
 
 ———( ? )———
-⭐ release 1.0.0 – add Label on GiHub
+
