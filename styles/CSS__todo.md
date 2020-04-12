@@ -55,6 +55,6 @@ Saturday    11. 4. 2020
 Sunday      12. 4. 2020
 ======
 ✅ <nav>       [ time ]
-❤️ <footer>    [ time ]
+✅ <footer>    [ 30m ]
 ⭐ ◊ ◊ ◊       [ unlimited time ]
 
