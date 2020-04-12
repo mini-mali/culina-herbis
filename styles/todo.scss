@@ -1,4 +1,4 @@
-.todo__task-name {
+.dev__todo {
   //…
   color: var(--todo) !important;
 }
@@ -56,4 +56,19 @@ main {
       color: var(--section-h1);
     }
   }
+}
+
+
+
+//
+//  [ T ] Typography
+//
+.text {
+  &--small {      font-size: small; }
+
+  &--left {       text-align: left; }
+  &--center {     text-align: center; }
+  &--right {      text-align: right; }
+
+  &--muted {      opacity: .5; }
 }

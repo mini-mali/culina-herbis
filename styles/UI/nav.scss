@@ -44,7 +44,7 @@ nav {
 //
 //  Primary navigation
 //
-nav[role="primary"] {
+.nav-primary {
   background: var(--nav-primary);
 }
 
@@ -54,7 +54,7 @@ nav[role="primary"] {
 //
 //  Secondary navigation
 //
-nav[role="secondary"] {
+.nav-secondary {
 display: none;  // TODO > remove
   background: var(--nav-secondary);
 }
