@@ -13,7 +13,7 @@
     "npm": ">= 6.9.0"
   },
   "scripts": {
-    "serve": "live-server --watch=index.html,dist/*.css --open=index.html",
+    "serve": "live-server --watch=index.html,dist/*.css,dist/*.js --open=index.html",
     "sass": "node-sass --watch styles/*.scss -o dist --output-style compressed -q --source-map-root file://${PWD}/ --source-map-embed true",
     "build": "node-sass --include-path scss styles/app.scss dist/app.css --source-map-root file://${PWD}/ --source-map-embed true",
     "start": "concurrently  \" npm run sass \" \" npm run serve  \" "
