@@ -68,7 +68,11 @@ E X T R A S
 Release 🅰️.0.0
 --------------
 
-✅ working local dev stack
+✅ working local dev stack (HTML, CSS, JS)
+⭐⭐⭐ Live reload:
+       ✅ index.html
+       ✅ app.scss
+       ✅ app.js
 >>> publish your website on the Internet
 
 ———( ? )———
