@@ -77,7 +77,7 @@ E X T R A S
 
 Release ℬ.0.0
 --------------
-> [ UI ] < nav >
+✅ [ UI ] < nav >
 > [ UI ] < footer >
 > [ UI ] var(--colors)
 
