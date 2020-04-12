@@ -43,16 +43,6 @@ Saturday    11. 4. 2020
 
 
 
-⏳ app.js
-   ------
-
-   > create app.js in ./scripts/ directory
-   > write your first "Hallow world!" JavaScript
-   > link app.js with index.html template
-  ❤️ How to… auto reload app.js
-     ⭐ …display a message in browser's console
-
-
 
 
 
