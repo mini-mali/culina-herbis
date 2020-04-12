@@ -82,6 +82,7 @@ Release ℬ.0.0
     ✅ create <nav> HTML structure
     ✅ style <nav>
     ✅ enable horizontal scroll on <nav>
+
 ✅ [ UI ] < footer >    {{ Release ℬ.0.2 }}
 > [ UI ] var(--colors)
 
