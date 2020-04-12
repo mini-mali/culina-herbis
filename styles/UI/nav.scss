@@ -8,11 +8,10 @@ nav {
   padding: 2vw;
   overflow: scroll;
 
-  border-radius: 1vw;
 
-
+  li,
   a {
-    //...
+    padding: 0 1rem;
   }
 
 
@@ -30,7 +29,7 @@ nav {
 
 
   li {
-    font-size: 4vw;
+    font-size: 3em;
     //a {…}
   }
   li li {
@@ -56,6 +55,7 @@ nav[role="primary"] {
 //  Secondary navigation
 //
 nav[role="secondary"] {
+display: none;  // TODO > remove
   background: var(--nav-secondary);
 }
 
