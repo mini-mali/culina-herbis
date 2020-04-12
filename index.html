@@ -17,20 +17,18 @@
 </head>
 <body>
     <header>
-        <h1>
-            Culina Herbis
-        </h1>
+        <h1>Culina Herbis</h1>
         <nav
             role="primary"
             aria-label="Alphabet">
             <ul>
                 <li>
-                    <a href="/A/">
+                    <a href="/#A">
                         A
                     </a>
                     <ul>
                         <li>
-                            <a href="/A/ayran">
+                            <a href="#A__Ayran">
                                 Ayran
                             </a>
                         </li>
@@ -59,7 +57,18 @@
                 <li class="d--none">Ň</li>
                 <li>O</li>
                 <li class="d--none">Ó</li>
-                <li>P</li>
+                <li>
+                    <a href="/#P">
+                        P
+                    </a>
+                    <ul>
+                        <li>
+                            <a href="#P__Parsley">
+                                Parsley
+                            </a>
+                        </li>
+                    </ul>
+                </li>
                 <li>Q</li>
                 <li>R</li>
                 <li class="d--none">Ř</li>
@@ -75,7 +84,18 @@
                 <li>X</li>
                 <li>Y</li>
                 <li class="d--none">Ý</li>
-                <li>Z</li>
+                <li>
+                    <a href="/#Z">
+                        Z
+                    </a>
+                    <ul>
+                        <li>
+                            <a href="#Z__Zeli">
+                                Zelí
+                            </a>
+                        </li>
+                    </ul>
+                </li>
                 <li class="d--none">Ž</li>
             </ul>
         </nav>
@@ -101,15 +121,45 @@
         </nav>
     </header>
     <main>
-        <article>
+        <section id="A">
             <h1>
-                Parsley
+                A
             </h1>
-            <dl>
-                <dt>Latin name</dt>
-                    <dd>Petroselinum</dd>
-            </dl>
-        </article>
+            <article id="A__Ayran">
+                <h1>
+                    Ayran
+                </h1>
+                <dl>
+                    <dt>Latin name</dt><dd>___</dd>
+                </dl>
+            </article>
+        </section>
+        <section id="P">
+            <h1>
+                P
+            </h1>
+            <article id="P__Parsley">
+                <h1>
+                    Parsley
+                </h1>
+                <dl>
+                    <dt>Latin name</dt><dd>Petroselinum</dd>
+                </dl>
+            </article>
+        </section>
+        <section id="Z">
+            <h1>
+                Z
+            </h1>
+            <article id="Z__Zeli">
+                <h1>
+                    Zelí
+                </h1>
+                <dl>
+                    <dt>Latin name</dt><dd>___</dd>
+                </dl>
+            </article>
+        </section>
     </main>
     <footer class="todo__task-name">
         > credit your work

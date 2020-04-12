@@ -58,6 +58,16 @@ E X T R A S
 
 
 
+
+
+
+
+
+
+
+
+
+
 🔽🔽🔽  🔽🔽🔽  🔽🔽🔽
 🔽🔽🔽  🔽🔽🔽  🔽🔽🔽
 🔽🔽🔽  🔽🔽🔽  🔽🔽🔽
@@ -67,10 +77,90 @@ E X T R A S
 
 Release ℬ.0.0
 --------------
+✅ [ UI ] < nav >
+> [ UI ] < footer >
+> [ UI ] var(--colors)
+
+⭐  Extra BONUS
+❤️  Nice to have
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ⭐ add label "Release A.0.0" on GitHub
+
+———( ? )———
 > ∑ (SHIFT + ALT + S)
 > ∆ (SHIFT + ALT + D)
 
 
-———( ? )———
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 

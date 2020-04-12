@@ -2,3 +2,58 @@
   //…
   color: var(--todo) !important;
 }
+
+
+
+
+
+//
+//  DEV layout – test <nav> scroll
+//
+h1 {
+  margin: 0 0 1.6rem;
+
+  font-size: 2.4rem;
+  line-height: 1.4;
+  color: var(--red);
+}
+
+
+//
+//  [ UI ] logo
+//
+header {
+  position: fixed;
+  width: 100%;
+  height: var(--header-height);
+
+  margin-left: calc(#{var(--body-margin)} * -1);
+
+  background: var(--header);
+
+  > h1 {
+display: none;
+    margin: 2vh;
+
+    font-size: 1.6rem;
+    line-height: 1;
+    font-weight: 400;
+  }
+}
+
+
+main {
+  display: flex;
+  flex-direction: column;
+  min-height: 400vh;
+
+  > section {
+    min-height: 100vh;
+    padding-top: --header-height;  // reserved spcae for <nav>
+
+    > h1 {
+      font-size: 4.8rem;
+      color: var(--section-h1);
+    }
+  }
+}

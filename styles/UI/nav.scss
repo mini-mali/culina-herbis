@@ -1,0 +1,65 @@
+//@import 'variables';
+//@import 'utility';
+@import '../mixins';
+
+
+
+nav {
+  padding: 2vw;
+  overflow: scroll;
+
+
+  li,
+  a {
+    padding: 0 1rem;
+  }
+
+
+  //
+  // ◊ ◊ ◊
+  //
+  ul {
+    @include reset(ul);
+    display: flex;
+  }
+  ul ul {
+    //...
+    display: none;  // TODO > remove
+  }
+
+
+  li {
+    font-size: 3em;
+    //a {…}
+  }
+  li li {
+    //...
+    //a {…}
+  }
+}
+
+
+
+
+//
+//  Primary navigation
+//
+nav[role="primary"] {
+  background: var(--nav-primary);
+}
+
+
+
+
+//
+//  Secondary navigation
+//
+nav[role="secondary"] {
+display: none;  // TODO > remove
+  background: var(--nav-secondary);
+}
+
+
+
+
+
