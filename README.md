@@ -1,10 +1,15 @@
 # Culina Herbis
 Kitchen Herbs album
 
+↘️
 
-Live DEMO  ➡️ ➡️ ➡️  [link](https://mini-mali.github.io/culina-herbis/){:target="_blank"}
+↘️  ↘️
 
+➡️  ➡️  ➡️      [Live DEMO](https://mini-mali.github.io/culina-herbis/)
 
+↗️  ↗
+
+↗️
 
 
 
