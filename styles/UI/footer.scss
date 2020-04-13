@@ -1,0 +1,35 @@
+@import '../variables';
+@import '../mixins';
+
+
+
+
+//
+//  ____
+//
+footer {
+  padding: $unit;
+
+  //
+  //  Copyright
+  //
+  a {
+    display: inline-block;
+    text-decoration: none;
+    color: var(--text);
+
+    transition: transform 50s ease;
+    &:visited { color: var(--text); }
+    &:focus,
+    &:hover { cursor: alias; }
+    //&:hover { poiner-events: none; }
+    &:active { transform: scale(8); }   // TODO > review style
+  }
+
+
+  //
+  //  Logo
+  //
+  b:hover {   cursor: none; }       // logo – text
+  sup:hover { cursor: progress; }   // app version
+}
