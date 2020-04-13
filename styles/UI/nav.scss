@@ -1,17 +1,32 @@
-//@import 'variables';
-//@import 'utility';
+@import '../variables';
 @import '../mixins';
 
 
 
+
+//
+//  ____
+//
 nav {
   padding: $unit;
   overflow: scroll;
 
 
-  li,
   a {
+    display: inline-block;
     padding: 0 $unit;
+
+    color: var(--link);
+    text-decoration: none;
+
+    transition: transform 100ms ease;
+    &:visited { color: var(--link); }
+    &:focus,
+    &:hover {
+      color: var(--link-hover);
+      transform: scale(1.2);
+    }
+    //&:active { ___ }
   }
 
 
@@ -29,6 +44,7 @@ nav {
 
 
   li {
+    padding: 0 $unit;
     font-size: $unit * 2;
     //a {…}
   }
