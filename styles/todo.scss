@@ -150,3 +150,15 @@ ins { color: var(--ins); }
 
 
 
+h1 span[lang="la"] {
+  display: block;
+
+  font-size: small;
+  font-weight: normal;
+  font-style: italic;
+  @extend .text--muted;
+}
+
+
+
+
