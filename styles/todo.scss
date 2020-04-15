@@ -182,5 +182,16 @@ h1 span[lang="la"] {
 }
 
 
+//
+//  PREDICATE
+//
+h1 i {
+  @extend .text--muted;
+}
+
+
+dd i {
+  @extend .text--muted;
+}
 
 
