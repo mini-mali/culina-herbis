@@ -138,3 +138,49 @@ dd {
 
 //•••  •••  •••  •••  •••  •••  •••
 
+
+
+
+
+
+
+//•••  •••  •••  •••  •••  •••  •••
+//•••
+//•••  15.4. – ⭐️ Bonus level
+//•••
+//••
+//•
+//
+dd { line-height: 1.2; }
+dd em {
+  display: block;
+  @extend .text--muted;
+}
+
+.__todo { color: RED !important; }
+
+
+//
+//  deleted text
+//
+del { color: var(--del); }
+
+//
+//  inserted text
+//
+ins { color: var(--ins); }
+
+
+
+h1 span[lang="la"] {
+  display: block;
+
+  font-size: small;
+  font-weight: normal;
+  font-style: italic;
+  @extend .text--muted;
+}
+
+
+
+

@@ -55,8 +55,10 @@ E X T R A S
 
 
 
-
-
+Git commit prefixes
+≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠
+📄 new content (text)
+🆃 text edit (fix typos)
 
 
 
