@@ -35,10 +35,14 @@ body {
   line-height: 1.5;
 }
 
-main {
+main,
+aside {
   display: block;
   margin: 0 auto;
   max-width: 28rem;
+  @media (min-width: 768px) {
+    max-width: calc(768px - 32px);
+  }
 }
 
 hr {
