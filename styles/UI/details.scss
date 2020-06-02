@@ -9,6 +9,12 @@
 //
 details {
   //...
+
+  &[open] {
+    * {
+      color: red;
+    }
+  }
 }
 
 
@@ -18,5 +24,9 @@ details {
 //  <summary>
 //
 summary {
-  //...
+  cursor: pointer;
+
+  &::-webkit-details-marker {
+    display: none;
+  }
 }
