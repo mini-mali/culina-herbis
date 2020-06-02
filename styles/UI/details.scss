@@ -1,0 +1,39 @@
+@import '../variables';
+@import '../mixins';
+
+
+
+
+//
+//  <details>
+//
+details {
+  //...
+
+  &[open] {
+    transition: all 100ms ease-in-out;
+
+    background: white;
+    background: lighten($body-background, 5%);
+
+    box-shadow:
+      0 0 0 $unit lighten($body-background, 5%),
+      0 0 0 ($unit * 1.15) var(--red);
+
+    border-radius: $unit;
+  }
+}
+
+
+
+
+//
+//  <summary>
+//
+summary {
+  cursor: pointer;
+
+  &::-webkit-details-marker {
+    display: none;
+  }
+}

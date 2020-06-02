@@ -5,13 +5,15 @@
 //
 //  UI elements
 //
+@import 'UI/details';
 @import 'UI/nav';
 @import 'UI/footer';
 
 
 
+
 //
-//  variables
+//  RESET
 //
 :root {
   font-size: 62.5%;
@@ -19,13 +21,36 @@
 }
 
 
-//
-//  reset.scss
-//
+html {
+  box-sizing: border-box;
+}
+
+* {
+  &,
+  &::before,
+  &::after {
+    box-sizing: inherit;
+  }
+}
+
+html,
+body {
+  height:100%;
+}
+
+
+
+
+
+//====================
+
+
+
 html {
   line-height: 1.618;
   -webkit-text-size-adjust: 100%;
 }
+
 
 body {
   margin: 0 var(--body-margin);
@@ -34,7 +59,10 @@ body {
   //font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   font-size: $unit;
   line-height: 1.5;
+
+  background-color: $body-background;
 }
+
 
 main,
 aside {
@@ -113,17 +141,12 @@ template{display:none}[hidden]{display:none}
 
 
 
-//
-//  app.scss
-//
-html{ box-sizing:border-box}
-*,*::before,
-*::after{box-sizing:inherit}
-html,body{height:100%}
 
-body{
-  background-color: #e1f5c4;
-}
+
+
+
+
+
 
 
 
