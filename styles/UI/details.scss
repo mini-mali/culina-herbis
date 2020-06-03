@@ -11,7 +11,7 @@ details {
   //...
 
   &[open] {
-    transition: all 100ms ease-in-out;
+    transition: $transition;
 
     background: white;
     background: lighten($body-background, 5%);
